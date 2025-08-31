@@ -1,0 +1,23 @@
+{
+  "name": "docker-cron-ticket",
+  "version": "1.0.0",
+  "description": "Aplicacion para probar la creacion de imagenes y dockerizar una aplicación",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c-maradiaga/docker-cron-ticket.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c-maradiaga/docker-cron-ticket/issues"
+  },
+  "homepage": "https://github.com/c-maradiaga/docker-cron-ticket#readme",
+  "dependencies": {
+    "node-cron": "^4.2.1"
+  }
+}
