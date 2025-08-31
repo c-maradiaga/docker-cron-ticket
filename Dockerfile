@@ -8,6 +8,11 @@ WORKDIR /app
 # que se creo con la instruccion FROM.
 COPY app.js package.json ./
 
+RUN npm install
+
+# comando que se ejecuta al iniciar el contenedor:
+CMD [ "node" , "app.js" ]
+
 
 
 
